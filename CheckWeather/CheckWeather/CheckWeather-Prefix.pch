@@ -1,0 +1,19 @@
+//
+//  CheckWeather-Prefix.pch
+//  CheckWeather
+//
+//  Created by Vivek Nahar .
+//  Copyright (c) 2015 TCS. All rights reserved.
+//
+
+#ifndef CheckWeather_CheckWeather_Prefix_pch
+#define CheckWeather_CheckWeather_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+#import "LocationManager.h"
+#endif
